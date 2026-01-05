@@ -147,6 +147,20 @@ const scrollOffset = useScrollViewOffset(scrollRef);
 
 ```
 
+# Cleaning Up Expo Boilerplate
+
+To delete all the expo boilerplate code , you can delete everything inside the app folder and create a (tabs) folder inside the app folder
+
+```
+npm run reset-project
+```
+
+# Creating A New Screen
+
+Create a new file called index.jsx inside the (tabs) folder
+
+You can then run "rnfs"
+
 # Setting Up a Welcome Screen
 
 ```
@@ -167,6 +181,13 @@ export default function index() {
 }
 
 ```
+
+
+# Dynamic Routes in Expo Router
+
+- In Your app folder create a new folder called [slug] , this slug parameter can be anything , it is dynamic , think of it as /movies/:id in react-router-dom.
+
+
 
 Use the SafeAreaView to avoid the notch on the top of the screen
 
